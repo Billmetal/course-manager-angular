@@ -14,6 +14,16 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## To build internal server
+
+Server installation procedure: (note: needed Node installed on pc)
+
+  - copy the files from the "assets/para-server" folder to another folder outside the folders of this project
+  - open the terminal on the pc and go to the folder that you created with the files
+  - type the command "npm install" to install the server
+  - type "node serve.js" to start the server
+  - to stop and close the server type "ctrl + c"
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
